@@ -1,0 +1,15 @@
+A short history of modern AI (draft written by an AI assistant)
+
+The Transformer architecture was introduced by Google researchers in 2017 in the paper
+"Attention Is All You Need", and it now underpins most large language models.
+
+OpenAI was founded in 2016 by a group that included Sam Altman and Elon Musk, and it
+released ChatGPT to the public in November 2022.
+
+Python, the most popular language for machine learning, was created by James Gosling and
+first released in 1991.
+
+On the security side, the Log4Shell vulnerability (CVE-2021-44228) in Apache Log4j received
+the maximum CVSS score of 10.0 when it was disclosed in December 2021.
+
+The Eiffel Tower, often used as a landmark in computer vision datasets, was completed in 1899.

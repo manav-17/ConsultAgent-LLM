@@ -1,0 +1,56 @@
+=== CLIENT: Nexora Retail ===
+
+[2026-08-04] From: Aditi Rao (Head of Digital, Nexora Retail)
+Hi team, the inventory forecasting pilot is already paying off. Store managers in Pune
+stopped over-ordering dairy within two weeks. Can we add the Bengaluru stores next month?
+Also, our CFO wants to see you on the 20th — she's keen on the pricing engine idea.
+
+[2026-08-21] From: Aditi Rao
+Great session yesterday! Sharing the store list for phase 2. Replying fast because we want
+to lock the start date before Diwali. Let me know what you need from our side.
+
+[2026-09-15] From: Aditi Rao
+Quick one: can we bring the weekly review forward to Monday? We have new data from the
+loyalty app we'd love you to look at. Thanks for the quick turnaround on the dashboard.
+
+
+=== CLIENT: Kestrel Logistics ===
+
+[2026-07-10] From: Vikram Shetty (COO, Kestrel Logistics)
+Thanks for the route-optimisation kickoff. Looking forward to the dashboard prototype
+your team promised for mid-August. Our drivers are excited.
+
+[2026-08-19] From: Vikram Shetty  (reply sent 4 days after our email)
+Noted on the delay. We understand data access took longer than planned.
+
+[2026-09-08] From: Vikram Shetty  (reply sent 9 days after our email)
+Thanks for the update. We'll review it internally and get back to you.
+
+[2026-09-22] From: Meera Iyer (Procurement, Kestrel Logistics)
+Hi, Vikram asked me to request a breakdown of hours billed to date against the milestones
+in the SOW. Could you send this by Friday? We are reviewing all vendor engagements this quarter.
+
+Note from our account manager: Vikram declined the September steering call, citing
+"scheduling conflicts". No new date proposed.
+
+
+=== CLIENT: Vantara Health ===
+
+[2026-06-30] From: Dr. Sunil Menon (CTO, Vantara Health)
+The patient-triage chatbot is live in two clinics. Some nurses say it routes too many
+cases to emergency. Can you look at the thresholds this week?
+
+[2026-07-18] From: Dr. Sunil Menon
+This is the second time I'm raising the triage issue. Nurses are now overriding the bot
+for almost every case, which defeats the purpose. I need a fix, not another status update.
+
+[2026-08-12] From: Dr. Sunil Menon  (CC: Anjali Kapoor, CEO)
+I'm copying Anjali because we've missed two promised fix dates. We were sold a solution
+that would reduce nurse workload. Right now it adds to it.
+
+[2026-09-03] From: Anjali Kapoor (CEO, Vantara Health)
+Sunil and I won't be able to join the monthly review. Please send a written plan for how
+you will resolve the triage problem, with dates you can actually commit to. We are also
+looking at other options for phase 2.
+
+Note from our account manager: Two monthly reviews (Aug, Sep) cancelled by client.
