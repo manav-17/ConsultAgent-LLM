@@ -65,6 +65,15 @@ def supervisor_node(state: AgentState) -> dict:
     }
 
 
+def _headline(summary_md: str) -> str:
+    """First meaningful line of an agent's summary (skips headings and blank lines)."""
+    for line in summary_md.split("\n"):
+        line = line.strip()
+        if line and not line.startswith("#"):
+            return line[:160]
+    return ""
+
+
 def make_agent_node(name: str):
     runner = AGENT_RUNNERS[name]
 
@@ -75,7 +84,7 @@ def make_agent_node(name: str):
         except Exception as e:  # one failing agent should not kill the run
             out = {"status": "error", "summary_md": f"**{AGENT_META[name]['label']} failed:** {e}",
                    "text_output": ""}
-        detail = (out.get("summary_md", "").split("\n")[-1] or "")[:140]
+        detail = _headline(out.get("summary_md", ""))
         return {
             "results": {**(state.get("results") or {}), name: out},
             "cursor": state.get("cursor", 0) + 1,
