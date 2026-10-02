@@ -1,0 +1,26 @@
+# Agent framework
+langgraph>=0.2
+langchain-core>=0.3
+pydantic>=2.6
+
+# LLM provider
+langchain-groq
+
+# Second Brain (same stack as SecuRAG-LLM)
+sentence-transformers
+faiss-cpu
+numpy
+
+# Web search
+tavily-python
+ddgs
+
+# Documents
+pypdf
+python-docx
+
+# App
+streamlit>=1.50
+pandas
+markdown
+python-dotenv
