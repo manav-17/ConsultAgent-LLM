@@ -13,7 +13,7 @@ from typing import Literal, Optional, TypedDict
 from langgraph.graph import StateGraph, START, END
 from pydantic import BaseModel, Field
 
-from agents.common import current_step, result, needs_input, previous_text_output
+from agents.common import current_step, result, needs_input, previous_text_output, today
 from core.agents_meta import OWN_DOCS_NOTE
 from core.llm import structured_call
 from core.state import AgentState
@@ -89,7 +89,7 @@ def answer(s: SBState) -> SBState:
     mode = s["plan"]["mode"]
     out = structured_call(
         MemoryAnswer,
-        "You are the company's second brain. Answer ONLY from the provided excerpts. "
+        f"Today is {today()}. You are the company's second brain. Answer ONLY from the provided excerpts. "
         "Cite every fact with its label like [S1]. If the excerpts do not contain the "
         "answer, say so and list it under gaps — never invent details. "
         f"Mode is '{mode}': for commitments/decisions/timeline, also fill items with one "
